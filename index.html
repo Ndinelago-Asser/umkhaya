@@ -29,19 +29,35 @@
       header h1 {
         font-size: 3rem;
         margin-bottom: 20px;
-        color: #25d366;
       }
 
       header p {
         max-width: 700px;
         margin: auto;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
       }
 
       .tagline {
         font-style: italic;
-        margin-bottom: 20px;
-        font-size: 1.1rem;
+        margin-bottom: 15px;
+        font-size: 1.4rem;
+      }
+      .tagline {
+        font-size: 1.4rem;
+        font-style: italic;
+        margin-bottom: 15px;
+      }
+      .tagline2 {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        font-weight: bold;
+      }
+      .hero-image {
+        width: 100%;
+        max-width: 700px;
+        margin-top: 40px;
+        border-radius: 25px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
       }
       .button {
         display: inline-block;
@@ -69,6 +85,7 @@
         color: #009739;
         margin-bottom: 20px;
         font-size: 2rem;
+        text-align: center;
       }
       .cards {
         display: grid;
@@ -121,7 +138,12 @@
         text-decoration: none;
         font-weight: bold;
       }
-
+      .tagline {
+        font-size: 1.1rem;
+      }
+      .tagline2 {
+        font-size: 1rem;
+      }
       @media (max-width: 768px) {
         header h1 {
           font-size: 2.2rem;
@@ -132,14 +154,16 @@
   <body>
     <header>
       <h1>Umkhaya / Kumusha</h1>
-
       <p class="tagline">A taste of home nourished with wild flavors</p>
-
+      <p class="tagline2">A taste of home in every plate</p>
       <p>
         Homemade Zimbabwean and Southern African inspired dishes prepared fresh
         every weekend in Berlin.
       </p>
-
+      <!-- HERO IMAGE -->
+      <img src="ramba-waraira.png" alt="Ramba Waraira" class="hero-image" />
+      <!-- WHATSAPP BUTTON -->
+      <br />
       <a
         class="button"
         href="https://wa.me/4915754826737?text=Hello%20I%20would%20like%20to%20place%20an%20order"
